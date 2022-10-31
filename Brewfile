@@ -54,15 +54,15 @@ brew "wget"
 brew "yarn"
 brew "zsh-syntax-highlighting"
 brew "heroku/brew/heroku"
-cask "react-native-debugger"
-cask "canva"
-cask "deepl"
-cask "discord"
-cask "docker"
-cask "gather"
-cask "google-chrome"
-cask "iterm2"
-cask "jetbrains-toolbox"
-cask "notion"
-cask "slack"
-cask "spark"
+cask "canva", args: { appdir: "/Applications" }
+cask "deepl", args: { appdir: "/Applications" }
+cask "discord", args: { appdir: "/Applications" }
+cask "docker", args: { appdir: "/Applications" }
+cask "gather", args: { appdir: "/Applications" }
+cask "postman", args: { appdir: "/Applications" }
+cask "iterm2", args: { appdir: "/Applications" }
+cask "google-chrome", args: { appdir: "/Applications" }
+cask "jetbrains-toolbox", args: { appdir: "/Applications" }
+cask "notion", args: { appdir: "/Applications" }
+cask "slack", args: { appdir: "/Applications" }
+cask "spark", args: { appdir: "/Applications" }
